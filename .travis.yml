@@ -7,9 +7,8 @@ install: true
 script: python Physics.py 
 deploy:
   provider: pypi
-  user: goodspeed     # pypi 用户名
+  user: Mryan     # pypi 用户名
   password: password  # pypi 密码   
   on:     
     python: 2.7     
     tags: true     
-    branch: master
