@@ -2,9 +2,9 @@ language: python
 python:
   - '2.7'
   - '3.5' 
-install:
-- pip install -r requirements.txt 
-script: python test_example.py 
+install: true
+# - pip install -r requirements.txt 
+script: python Physics.py 
 deploy:
   provider: pypi
   user: goodspeed     # pypi 用户名
