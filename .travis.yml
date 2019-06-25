@@ -8,7 +8,7 @@ script: python Physics.py
 deploy:
   provider: pypi
   user: Mryan     # pypi 用户名
-  password: password  # pypi 密码   
+  password: ${password}  # pypi 密码   
   on:     
     python: 2.7     
     tags: true     
